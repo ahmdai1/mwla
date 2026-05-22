@@ -1,0 +1,21 @@
+{
+  "name": "mwlai",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.11.0",
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format",
+    "db:migrate": "pnpm --filter cms payload migrate"
+  },
+  "pnpm": {
+    "workspaces": ["apps/*", "packages/*"]
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "eslint": "^8.57.0",
+    "prettier": "^3.5.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@mwlai/web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "@tsparticles/react": "^4.0.5",
+    "@tsparticles/slim": "^3.12.0",
+    "@vercel/analytics": "^2.0.0",
+    "@vercel/speed-insights": "^0.1.0",
+    "date-fns": "^2.30.0",
+    "lucide-react": "^0.433.0",
+    "next-themes": "^0.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.58.0",
+    "react-icons": "^5.14.0",
+    "react-router-dom": "^7.0.0",
+    "recharts": "^2.8.0",
+    "sonner": "^0.28.0",
+    "zod": "^4.30.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.0"
+  }
+}
